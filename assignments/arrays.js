@@ -84,11 +84,10 @@ for (let i = 0; i < inventory.length; i++) {
 // ==== Challenge 2 ====
 // The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory?  Log the make and model into the console.
 let lastCar = 0;
-let lastCar = inventory[inventory.length - 1] 
-let lastCarMake = lastCar[car_make];
-let lastCarModel = lastCar[car_model];
-console.log (lastCarMake);
-console.log (lastCarModel);
+let lastCarSelector = inventory[inventory.length - 1] 
+let lastCarMake = lastCarSelector["car_make"];
+let lastCarModel = lastCarSelector["car_model"];
+lastCar = lastCarMake + " " + lastCarModel;
 
 
 // ==== Challenge 3 ====
